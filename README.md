@@ -31,6 +31,9 @@ This file imports previously collected acceleration and positional data. Using a
 Way_point_generation:
 Tool to select valid waypoints used in the path following of the cart. 
 
+atvSensors2:
+This is the sensor configuration portion of the project in a C-based Arduino file. It sets up the encoder, accelerometer, magnetometer, GPS, and PCNT peripheral on the ESP32.
+
 Link1: 
 https://youtu.be/pjGH6eBTWfI
 
