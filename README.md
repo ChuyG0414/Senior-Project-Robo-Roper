@@ -1,6 +1,7 @@
 # Senior-Project-Robo-Roper
 This is my senior project Robo-Roper. The project began this past summer and has since become my senior capstone project! I cannot go into too much detail due to legal reasons, but a high-level overview of the project includes developing an automated roping training system. This experience has been nothing but invaluable, it has given me the entire engineering process. Involving designing, simulation, testing, and reiteration. It has also humbled me extremely and made it known there is always room for improvement as an engineer! I learned a valuable lesson, communication! I quickly came to the realization I would require assistance specifically from a Mechanical Engineer because there were some problems I was having with the dynamics of the system. Had I not expressed my concern to my employer, progress would have significantly decreased. My responsibilities include programming, implementation of controls, sensor integration and simulation. Through these responsibilities I have practiced sourcing modules for correct configurations, reading data sheets, reading scholarly articles and effective communication between myself and my employer. I have attached some of the simulation files I created to show the project is feasible and can work. It utilizes simulation techniques such as data plotting, Runga Kutta (RK4), State Estimation, noise, Way point collection, PID controller, and even a velocity model was derived using Least Squares!
 
+I am currently working on the physical implementation portion of this project I will update this repository once I have completed it!
 Description on each of the files:
 
 ATV_Dynamics_3:
@@ -29,3 +30,11 @@ This file imports previously collected acceleration and positional data. Using a
 
 Way_point_generation:
 Tool to select valid waypoints used in the path following of the cart. 
+
+Link1: 
+https://youtu.be/pjGH6eBTWfI
+->This link is a video of the above files in action! It showcases the simulation with out electrical noise to make it easier to interpret the plots.
+
+Link2:
+https://youtu.be/5jL4DsDddaE
+->This link is a simulation similar to Link1 but it includes electrical noise to showcase performance of the controller still exists despite there being noise. It also walks through the way point generation to show how the waypoints are collected.
