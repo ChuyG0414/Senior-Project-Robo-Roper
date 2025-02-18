@@ -26,3 +26,6 @@ These files all have PID controllers implemented for controlling the heading, st
 
 velocity_model:
 This file imports previously collected acceleration and positional data. Using an accelerometer and a digital encoder I provided a sinusoid input to the carts throttle to properly charcaterize its acceleration. After data had been collected it imported to MATLAB, parsed and then Least Squares was applied to derive a velocity model.
+
+Way_point_generation:
+Tool to select valid waypoints used in the path following of the cart. 
