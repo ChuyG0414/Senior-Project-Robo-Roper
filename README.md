@@ -33,6 +33,7 @@ Tool to select valid waypoints used in the path following of the cart.
 
 Link1: 
 https://youtu.be/pjGH6eBTWfI
+
 This link is a video of the above files in action! It showcases the simulation with out electrical noise to make it easier to interpret the plots.
 The 2x1 plot, titled "Voltage to Cart Speed Controller" and "Effort of LA", represents the two system inputs. LA stands for Linear Actuator.
 
@@ -49,4 +50,5 @@ The figure titled "Error in Waypoint Following" shows the deviation, measured in
 
 Link2:
 https://youtu.be/5jL4DsDddaE
-->This link is a simulation similar to Link1 but it includes electrical noise to showcase performance of the controller still exists despite there being noise. It also walks through the way point generation to show how the waypoints are collected.
+
+This link is a simulation similar to Link1 but it includes electrical noise to showcase performance of the controller still exists despite there being noise. It also walks through the way point generation to show how the waypoints are collected.
