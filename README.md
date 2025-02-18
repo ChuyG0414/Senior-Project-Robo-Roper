@@ -33,7 +33,19 @@ Tool to select valid waypoints used in the path following of the cart.
 
 Link1: 
 https://youtu.be/pjGH6eBTWfI
-->This link is a video of the above files in action! It showcases the simulation with out electrical noise to make it easier to interpret the plots.
+This link is a video of the above files in action! It showcases the simulation with out electrical noise to make it easier to interpret the plots.
+The 2x1 plot, titled "Voltage to Cart Speed Controller" and "Effort of LA", represents the two system inputs. LA stands for Linear Actuator.
+
+The "Voltage to Cart Speed Controller" plot shows the input controlling the vehicle’s speed. The speed controller operates on a 0–5 V signal, where 5 V corresponds to full throttle and 0 V indicates no acceleration.
+
+The "Effort of LA" plot measures the intensity of the Linear Actuator’s movement. A value of 100 commands the actuator to extend at maximum speed, while -100 commands it to retract at maximum speed.
+
+The 3x1 Plot Explanation:
+The 3x1 plot, titled "Velocity," "Heading," and "Steering Angle," displays the current state of each parameter compared to their commanded values. Each plot shows how closely the system follows the desired targets for speed, direction, and steering input.
+
+The figure titled "Position", displays the waypoints in green, representing the target path, while the blue line shows the vehicle’s actual path as it attempts to follow those waypoints.
+
+The figure titled "Error in Waypoint Following" shows the deviation, measured in meters, between the vehicle's actual position and the intended waypoint. 
 
 Link2:
 https://youtu.be/5jL4DsDddaE
