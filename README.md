@@ -58,10 +58,12 @@ This link is a simulation similar to Link1 but it includes electrical noise to s
 
 Link3:
 https://youtu.be/M-MKcmVhsfk
+
 This video demonstrates a golf cart autonomously following a predefined set of waypoints using a path-planning and control system.
 
 Link4:
 https://youtu.be/UL6GoFEVH4Y
+
 Second video showcasing cart following set of predefined waypoints.
 
 
